@@ -29,7 +29,23 @@
 
 ---
 
-### 🔨 Currently building
+### 🌵 Mirage — the linter for AI
+
+A population of **persona-driven synthetic humans** that see and operate a real product's GUI with their own eyes, inside a sandbox, and return an evidence-backed verdict — deliberately **advisory and non-gating**. Arabic-first (Saudi/Gulf + English).
+
+The canonical `mirage-report.json` is the authority; every UI is a lossy projection of it. Findings are cross-verified before they count, and the measurement laws are versioned like code.
+
+<p>
+  <a href="https://mirage-sim.vercel.app"><img alt="Landing" src="https://img.shields.io/badge/Landing-mirage--sim-006C35?style=for-the-badge&logo=vercel&logoColor=white" /></a>
+  <a href="https://mirage-hub.vercel.app"><img alt="Hub" src="https://img.shields.io/badge/Hub-mirage--hub-006C35?style=for-the-badge&logo=vercel&logoColor=white" /></a>
+  <a href="https://mirage-simulation.vercel.app"><img alt="Console" src="https://img.shields.io/badge/Console-mirage--simulation-006C35?style=for-the-badge&logo=vercel&logoColor=white" /></a>
+</p>
+
+<sub>`TypeScript` engine + CLI · `React` + `Vite` console · `Next.js` hub & landing · sandboxed browsers · source private</sub>
+
+---
+
+### 🔨 Also building
 
 > Private for now — happy to walk through any of them.
 
