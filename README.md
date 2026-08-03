@@ -130,8 +130,10 @@ Started on Tesseract OCR; Claude Vision read the messy grid far more reliably.
 ---
 
 <p align="center">
-  <img height="165" alt="GitHub stats" src="https://github-readme-stats.vercel.app/api?username=BaderHAlnefaie&show_icons=true&hide_border=true&bg_color=00000000&title_color=006C35&icon_color=006C35&text_color=808080" />
-  <img height="165" alt="Top languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=BaderHAlnefaie&layout=compact&langs_count=8&hide_border=true&bg_color=00000000&title_color=006C35&text_color=808080" />
+  <a href="https://github.com/BaderHAlnefaie/Smoke-Ring-Project"><img alt="Smoke Ring language" src="https://img.shields.io/github/languages/top/BaderHAlnefaie/Smoke-Ring-Project?style=flat-square&label=smoke-ring&color=006C35" /></a>
+  <a href="https://github.com/BaderHAlnefaie/claude-usage"><img alt="ClaudeUsage language" src="https://img.shields.io/github/languages/top/BaderHAlnefaie/claude-usage?style=flat-square&label=claude-usage&color=006C35" /></a>
+  <a href="https://github.com/BaderHAlnefaie/Volleyball-Bot"><img alt="Volleyball-Bot language" src="https://img.shields.io/github/languages/top/BaderHAlnefaie/Volleyball-Bot?style=flat-square&label=volleyball-bot&color=006C35" /></a>
+  <img alt="Followers" src="https://img.shields.io/github/followers/BaderHAlnefaie?style=flat-square&logo=github&label=followers&color=006C35" />
 </p>
 
 <p align="center">
