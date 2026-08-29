@@ -5,6 +5,7 @@
 </p>
 
 <p align="center">
+  <a href="https://baderalnefaie.dev"><img alt="baderalnefaie.dev" src="https://img.shields.io/badge/baderalnefaie.dev-006C35?style=for-the-badge&logo=vercel&logoColor=white&labelColor=1a1a1a" /></a>
   <img alt="CS @ KFUPM" src="https://img.shields.io/badge/CS-KFUPM-006C35?style=for-the-badge&labelColor=1a1a1a" />
 </p>
 
@@ -35,13 +36,15 @@ A population of **persona-driven synthetic humans** that see and operate a real 
 
 The canonical `mirage-report.json` is the authority; every UI is a lossy projection of it. Findings are cross-verified before they count, and the measurement laws are versioned like code.
 
+Now running as a **hosted private beta**: the Hub takes a run, a separate credentialed runner executes it durably against a queue, and evidence lands in Postgres — so a crashed worker resumes instead of quietly reporting a finished run. A harness fault caps the verdict at `INCONCLUSIVE`; only product behaviour can produce PASS or BLOCK.
+
 <p>
   <a href="https://mirage-sim.vercel.app"><img alt="Landing" src="https://img.shields.io/badge/Landing-mirage--sim-006C35?style=for-the-badge&logo=vercel&logoColor=white" /></a>
   <a href="https://mirage-hub.vercel.app"><img alt="Hub" src="https://img.shields.io/badge/Hub-mirage--hub-006C35?style=for-the-badge&logo=vercel&logoColor=white" /></a>
   <a href="https://mirage-simulation.vercel.app"><img alt="Console" src="https://img.shields.io/badge/Console-mirage--simulation-006C35?style=for-the-badge&logo=vercel&logoColor=white" /></a>
 </p>
 
-<sub>`TypeScript` engine + CLI · `React` + `Vite` console · `Next.js` hub & landing · sandboxed browsers · source private</sub>
+<sub>`TypeScript` engine + CLI · `React` + `Vite` console · `Next.js` hub & landing · `Postgres` + containerised runner · sandboxed browsers · source private</sub>
 
 ---
 
@@ -51,7 +54,7 @@ The canonical `mirage-report.json` is the authority; every UI is a lossy project
 
 <table>
 <tr>
-<td width="34%" valign="top">
+<td width="50%" valign="top">
 
 **agentic-phone-os** 🔒
 
@@ -62,7 +65,20 @@ Verified on-device: it installs as the Android Home app, so the Home button land
 <sub>`Expo` `React Native` `Kotlin` `Supabase` `Zod`</sub>
 
 </td>
-<td width="33%" valign="top">
+<td width="50%" valign="top">
+
+**KFUPM Course Planner** 🔒
+
+Registration is a race, so this one runs the whole chain: **monitor** Banner 9 seat counts into SQLite and alert on the *edge*, not on every poll; **filter** each opening by whether it is actually reachable from the schedule I already hold — `actionable`, `reachable but rejected`, or `dead end`; **solve** for a better week with a bitmask DFS over joint moves.
+
+The Assistant only turns a sentence into **schema-validated solver tool calls**. The AI never creates a schedule — at most it ranks ones the deterministic solver already proved. It also expires itself after the registration deadline instead of polling a dead term forever.
+
+<sub>`Python` `FastAPI` `SQLite` `Anthropic` `Playwright`</sub>
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
 
 **Masar Academy** 🔒
 
@@ -73,7 +89,7 @@ Arabic-first (RTL) test-prep and future-skills platform for Saudi students — Q
 <sub>`Next.js 16` `TypeScript` `Prisma 7` `Auth.js v5` `Tailwind v4`</sub>
 
 </td>
-<td width="33%" valign="top">
+<td width="50%" valign="top">
 
 **claude-workflow** 🔒
 
@@ -150,6 +166,10 @@ Started on Tesseract OCR; Claude Vision read the messy grid far more reliably.
   <a href="https://github.com/BaderHAlnefaie/claude-usage"><img alt="ClaudeUsage language" src="https://img.shields.io/github/languages/top/BaderHAlnefaie/claude-usage?style=flat-square&label=claude-usage&color=006C35" /></a>
   <a href="https://github.com/BaderHAlnefaie/Volleyball-Bot"><img alt="Volleyball-Bot language" src="https://img.shields.io/github/languages/top/BaderHAlnefaie/Volleyball-Bot?style=flat-square&label=volleyball-bot&color=006C35" /></a>
   <img alt="Followers" src="https://img.shields.io/github/followers/BaderHAlnefaie?style=flat-square&logo=github&label=followers&color=006C35" />
+</p>
+
+<p align="center">
+  <sub>The long version, with the work laid out as an orbit: <a href="https://baderalnefaie.dev"><b>baderalnefaie.dev</b></a></sub>
 </p>
 
 <p align="center">
